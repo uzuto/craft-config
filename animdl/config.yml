@@ -1,0 +1,12 @@
+default_provider: allanime
+default_player: mpv
+players:
+    mpv:
+        executable: mpv
+        opts: [--fs]
+site_urls:
+    9anime: https://www.9anime.gs/
+fzf:
+    executable: fzf
+    opts: [--border=sharp, --height=15, --color=dark]
+    state: true
