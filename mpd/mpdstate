@@ -1,0 +1,58 @@
+sw_volume: 96
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: pause
+current: 0
+time: 3.971000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:anisung/Tombi.flac
+1:0AD/Honor_Bound.mp3
+2:0AD/Eastern_Dreams.mp3
+3:0AD/Ammon-Ra.mp3
+4:0AD/Calm_Before_the_Storm.mp3
+5:0AD/Dried_Tears.mp3
+6:0AD/Harvest Festival.mp3
+7:0AD/Highland_Mist.mp3
+8:0AD/In_the_Shadow_of_Olympus.mp3
+9:0AD/Peaks_of_Atlas.mp3
+10:0AD/Sands_of_Time.mp3
+11:0AD/You_are_Victorious!.mp3
+12:Noragami no Oto/16. Shadow dancing.mp3
+13:Noragami no Oto/03. Noratan.mp3
+14:Noragami no Oto/07. Lurk in the dark.mp3
+15:Noragami no Oto/08. Soul chosen.mp3
+16:Noragami no Oto/23. The One.mp3
+17:Noragami no Oto/22. Corollary.mp3
+18:Noragami no Oto/20. Back alley.mp3
+19:anisung/BAD CANDY.mp3
+20:anisung/Dreams Go with You.mp3
+21:anisung/Clattanoia.mp3
+22:anisung/Flyers.mp3
+23:anisung/GeGeGe no Ge.mp3
+24:anisung/geki.mp3
+25:anisung/Hey Kids.mp3
+26:anisung/Hope.mp3
+27:anisung/JINGO JUNGLE.mp3
+28:anisung/Kai.mp3
+29:anisung/Kawki wo Ameku.mp3
+30:anisung/Koi no Uta.mp3
+31:anisung/Literary Girl - Yassan Theme.mp3
+32:anisung/Sen no Tsubasa.mp3
+33:anisung/RUNNING IN THE 90's.mp3
+34:anisung/Shooting Star.mp3
+35:anisung/STYX HELIX.mp3
+36:anisung/Suzume.mp3
+37:anisung/The Cruel Angel's Thesis.mp3
+38:anisung/VORACITY.mp3
+39:anisung/Ziyoou Vachi.mp3
+40:anisung/Steppin' out.mp3
+41:anisung/Colors.mp3
+42:anisung/Ashes on The Fire.mp3
+playlist_end
