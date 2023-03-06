@@ -180,8 +180,6 @@ exec mpd &
 # Start bspwm scripts
 bspcolors
 bspbar
-# Disable bspcomp in favour of pijulius
-#bspcomp
-picom --animation-for-open-window fly-in --animations --corner-radius 2 &
+bspcomp
 bspdunst
 bspfloat &

@@ -247,7 +247,7 @@ type = internal/date
 
 interval = 1.0
 
-time = %H:%M
+time = %I:%M %p
 time-alt = %A, %d %B %Y
 
 format = <label>
@@ -263,7 +263,7 @@ label-font = 4
 [module/mpd]
 type = internal/mpd
 
-host = /home/uzuto/.mpd/socket
+;;host = 127.0.01
 ;;port = 6600
 ;;password = mysecretpassword
 

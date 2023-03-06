@@ -116,7 +116,7 @@ super + {h,v,c}
 	bspc node -p {east,south,cancel}
 
 # Preselect the ratio
-alt + ctrl + {1-9}
+ctrl + {1-9}
 	bspc node -o 0.{1-9}
 
 # Fullscreen or Monocle
@@ -204,8 +204,6 @@ alt + 2
 ctrl + shift + s
     alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e ranger /run/media/uzuto/Local\ Disk/.SID
 
-super + d
-    rofi -show drun -theme dmenu
 ctrl + alt + f
     rofi -show filebrowser -theme dmenu
 ##---------- EOF ----------##
