@@ -23,19 +23,7 @@ and Extract and place in respective places
 ``` 
 yay -S alsa-tools alsa-utils blueman bluez bluez-utils gpick gvfs gvfs-afc gvfs-google gvfs-gphoto2 gvfs-mtp gvfs-smb jq jump lxappearance xfce4-settings man-db python-pywal thunar-archive-plugin thunar-media-tags-plugin thunar-volman xdg-user-dirs 
 ```
-7. make 30-touchpad.conf in /etc/X11/xorg.conf.d with
-```
-sudo vim /etc/X11/xorg.conf.d/30-touchpad.conf
-```
-```
-Section "InputClass"   
-  Identifier "touchpad"  
-  Driver "libinput"  
-  MatchIsTouchpad "on"  
-  Option "Tapping" "on"  
-EndSection
-```
-8. Reboot System
+7. Reboot System
 
 ## NOTE
 If you use another DE like cinnamon make sure to disable it's lockscreen or it would conflict with betterlockscreen
