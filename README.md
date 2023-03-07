@@ -1,8 +1,8 @@
 # craft-config
 Before using these configs \
-Install [chaotic-aur](https://aur.chaotic.cx/) and [yay](https://aur.archlinux.org/yay-git.git)
+1. Install [chaotic-aur](https://aur.chaotic.cx/) and [yay](https://aur.archlinux.org/yay-git.git)
 
-Then run
+2. Then run
 ```
 yay -Syu --noconfirm && yay -S bspwm sxhkd alacritty thunar geany rofi polybar \
 dunst mpd mpc maim xclip viewnior feh ksuperkey \
@@ -12,9 +12,33 @@ sddm qt5-declarative qt5-graphicaleffects qt5-quickcontrols2 qt5-svg \
 polkit-gnome bc feh i3lock-color imagemagick xorg-xdpyinfo xorg-xrandr \
 ksuperkey mkinitcpio-firmware networkmanager-dmenu-git --needed
 ```
-Also Install your favourite picom fork. (reccomended pijulius or ibhagwan)
+3. Also Install your favourite picom fork. (reccomended ibhagwan)
 
-Then get all the Resources from [here](https://www.opencode.net/uzuto/archcraft-res)
+4. Then get all the Resources from [here](https://www.opencode.net/uzuto/archcraft-res)
 and Extract and place in respective places
 
-Then clone this repo and copy dotfiles to desired location.
+5. Then clone this repo and copy dotfiles to desired location.
+
+6. Install extra packages
+``` 
+yay -S alsa-tools alsa-utils blueman bluez bluez-utils gpick gvfs gvfs-afc gvfs-google gvfs-gphoto2 gvfs-mtp gvfs-smb jq jump lxappearance xfce4-settings man-db python-pywal thunar-archive-plugin thunar-media-tags-plugin thunar-volman xdg-user-dirs 
+```
+7. make 30-touchpad.conf in /etc/X11/xorg.conf.d with
+```
+sudo vim /etc/X11/xorg.conf.d/30-touchpad.conf
+```
+```
+Section "InputClass"   
+  Identifier "touchpad"  
+  Driver "libinput"  
+  MatchIsTouchpad "on"  
+  Option "Tapping" "on"  
+EndSection
+```
+8. Reboot System
+
+## NOTE
+If you use another DE like cinnamon make sure to disable it's lockscreen or it would conflict with betterlockscreen
+```
+gsettings set org.cinnamon.desktop.screensaver lock-enabled false
+```
