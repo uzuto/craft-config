@@ -22,7 +22,7 @@ and Extract and place in respective places
 6. Run ```chmod +x``` for all executables inculding bspwmrc
 7. Install extra packages
 ``` 
-yay -S alsa-tools alsa-utils blueman bluez bluez-utils gpick gvfs gvfs-afc gvfs-google gvfs-gphoto2 gvfs-mtp gvfs-smb jq jump lxappearance xfce4-settings man-db python-pywal thunar-archive-plugin thunar-media-tags-plugin thunar-volman xdg-user-dirs 
+yay -S alsa-tools alsa-utils blueman bluez bluez-utils gpick gvfs gvfs-afc gvfs-google gvfs-gphoto2 gvfs-mtp gvfs-smb jq jump lxappearance xfce4-settings man-db python-pywal thunar-archive-plugin thunar-media-tags-plugin thunar-volman xdg-user-dirs --needed
 ```
 8. Reboot System
 
