@@ -1,5 +1,5 @@
 # craft-config
-Before using these configs \
+Before using these configs
 1. Install [chaotic-aur](https://aur.chaotic.cx/) and [yay](https://aur.archlinux.org/yay-git.git)
 
 2. Then run
