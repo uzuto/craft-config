@@ -1,11 +1,12 @@
 # craft-config
+![Screenshot](https://raw.githubusercontent.com/uzuto/craft-config/main/Screenshot_2023-10-07-11-54-49_1366x768.png)
 Before using these configs
 1. Install [chaotic-aur](https://aur.chaotic.cx/) and [yay](https://aur.archlinux.org/yay-git.git)
 
 2. Then run
 ```
 yay -Syu --noconfirm && yay -S bspwm sxhkd alacritty thunar geany rofi polybar \
-dunst mpd mpc maim xclip viewnior feh ksuperkey \
+dunst mpd mpc maim xclip viewnior feh ksuperkey \Screenshot
 betterlockscreen xfce4-power-manager \
 xsettingsd xorg-xsetroot wmname zsh light xorg-xbacklight\
 sddm qt5-declarative qt5-graphicaleffects qt5-quickcontrols2 qt5-svg \
